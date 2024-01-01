@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    border: #ffffff 1px solid;
+    width: 700px;
+    height: 400px;
+    margin-top: 110px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.image-cricle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #dfdfdf;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.uploadfile {
+    position: relative;
+    left: 10px;
+    top: -70px;
+}
+
+/* Responsive Mobile (small) */
+@media screen and (max-width: 320px){
+    .main-container {
+        width: 300px;
+    }
+
+    .image-cricle {
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+    }
+
+    .uploadfile {
+        top: 20px;
+        left: 60px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .main-container {
+        width: 350px;
+    }
+
+    .image-cricle {
+        width: 125px;
+        height: 125px;
+        margin-left: 50px;
+    }
+
+    .uploadfile {
+        top: 20px;
+        left: 60px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .main-container {
+        width: 400px;
+    }
+
+    .image-cricle {
+        width: 130px;
+        height: 130px;
+        margin-left: 135px;
+    }
+
+    .uploadfile {
+        top: 20px;
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .main-container {
+        width: 450px;
+    }
+
+    .image-cricle {
+        width: 140px;
+        height: 140px;
+        margin-left: 155px;
+    }
+
+    .uploadfile {
+        top: 20px;
+        left: 130px;
+    }
+}
